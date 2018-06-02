@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Gtg') {
-    	message.channel.send('HYAH ( Ok Bye :( )');
+    	message.channel.send('HYAH ( Ok Bye :slight_frown: )');
   	}
 });
 
