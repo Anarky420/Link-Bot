@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Link') {
-    	message.channel.send('HYAH ( Hello :Smiley: )');
+    	message.channel.send('HYAH ( Hello :smiley: )');
   	}
 });
 
