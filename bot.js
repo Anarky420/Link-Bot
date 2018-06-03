@@ -7,13 +7,19 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Link') {
-    	message.channel.send('HYAH ( Hello :smiley: )');
+    	message.channel.send('HYAH ( Hey (: )');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'Gtg') {
     	message.channel.send('HYAH ( Ok Bye :slight_frown: )');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Hello') {
+    	message.channel.send('HYAH ( Hello :smiley: )');
   	}
 });
 
